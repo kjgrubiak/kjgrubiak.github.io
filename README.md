@@ -12,4 +12,4 @@ make start # Starts the container
 make stop  # Stops the container
 make restart # Refresh the container
 make tail # Shows logs for container
-``
+```
