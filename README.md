@@ -1,6 +1,6 @@
-Will Cray's Personal Website
+KJ Grubiak's Personal Website
 ==================================
-A repository for my personal website, located at https://www.willcray.com. This page is hosted with GitHub Pages and is built using Jekyll.
+A repository for my personal website, located at https://www.quesokaje.com. This page is hosted with GitHub Pages and is built using Jekyll.
 
 
 Local Development
@@ -12,8 +12,4 @@ make start # Starts the container
 make stop  # Stops the container
 make restart # Refresh the container
 make tail # Shows logs for container
-```
-
-Credits
------------------
-Thank you to my classmate at UVA, [Mike Verdicchio](https://github.com/MikeVerdicchio), for helping me learn how to create this website. His code provided an excellent framework for me to build upon.
+``
