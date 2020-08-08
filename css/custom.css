@@ -9,7 +9,7 @@ h3 {
 
 h2,
 h3 {
-    color: rgba(61, 35, 84, 0.75);
+    color: rgba(26, 188, 156,0.75);
 }
 
 h5 {
@@ -29,11 +29,22 @@ h5 {
 }
 
 #header {
-    background: linear-gradient(rgba(61, 35, 84, 0.5), rgba(61, 35, 84, 0.5)),
-    url("../images/header-will.jpg") no-repeat center;
+    background: linear-gradient(rgba(26, 188, 156,0.75), rgba(41, 128, 185,0.75));
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
+
+body.homepage #header:after {
+    background: linear-gradient(rgba(26, 188, 156,0.75), rgba(41, 128, 185,0.75));
+}
+
+#navPanel {
+    background: linear-gradient(rgba(26, 188, 156,0.75), rgba(41, 128, 185,0.75));
+}
+
+#footer {
+    background: linear-gradient(rgba(26, 188, 156,0.75), rgba(41, 128, 185,0.75));
 }
 
 .tight {
@@ -42,7 +53,7 @@ h5 {
 
 
 ul.icons {
-    background:  #413843;
+    background:  linear-gradient(rgba(26, 188, 156,0.00), rgba(41, 128, 185,0.00));
 }
 
 @keyframes progress-bar-stripes{

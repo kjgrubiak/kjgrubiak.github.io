@@ -1,29 +1,40 @@
-
 ---
-layout: default
-type: bio
+layout: page
+permalink: /about/
 ---
 
-<hr />
+{% assign bio = site.about %}
+{% for x in bio %}
 
-<div class="row">
-    <header>
-        <h3>
-            ABOUT
-        </h3>
-        <section>
+<div class="row align-items-center">
+    <div class="col-md-12 text-center">
+        <h1 class="tight">{{ x.title }}</h1>
+        <h4>
+            {{ x.driver }}
             <br />
-            <p>
-                I like lamp.
-            </p>
-            <p>
-                I love poppins.
-            </p>
-            <p>
-                Also, I get cheese.
-            </p>
-        </section>
-    </header>
+            {{ x.start | date: "%B %Y"  }}{% if x.end %} - {{ x.end | date: "%B %Y"  }} {% endif %}
+
+            HELLOOOOOOO
+        </h4>
+    </div>
+
+    <div class="col-md-7">
+        {{ x.content }}
+    </div>
+
+    <div class="col-md-5">
+        {% if x.video %}
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="{{ x.video }}" allowfullscreen></iframe>
+        </div>
+        {% elsif x.picture %}
+        <img src="{{ x.picture | relative_url }}" class="img-fluid">
+        {% endif %}
+    </div>
 </div>
 
+{% if forloop.last != true %}
 <hr />
+{% endif %}
+
+{% endfor %}
