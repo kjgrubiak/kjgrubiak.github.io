@@ -1,15 +1,12 @@
 # Site settings
-title: Will Cray
-tagline: IQ meets EQ.
+title: KJ Grubiak
+tagline: I get cheese.
 
-email: will@willcray.com
+email: kjgrubiak@gmail.com
 description: >
-  Will Cray is a M.S. in Computer Science with a focus on AI candidate
-  at The University of Texas at Austin (UT), a Freelance Data Scientist, a
-  former Intel Autonomous Driving engineer and a graduate of the University of
-  Virginia (UVA) with a B.S. as a Computer and Electrical Engineering double major.
+  KJ Grubiak is a technology sales professional at Oracle in Austin, TX.
 baseurl: ""
-url: "https://willcray.com"
+url: "https://quesokaje.com"
 
 # Build settings
 markdown: kramdown
